@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-website</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" type="text/css" id="theme-style" href="" />
+  </head>
+  <body>
+    <section class="section1">
+      <div class="main-container">
+        <div class="greeting-msg">
+          <h1>Hi, I'm Ionut Gavrilas</h1>
+        </div>
+
+        <div class="intro-wrapper">
+          <div class="nav-header">
+            <div class="dots-wrapper">
+              <div id="dot-1" class="red-dot"></div>
+              <div id="dot-2" class="orange-dot"></div>
+              <div id="dot-3" class="green-dot"></div>
+            </div>
+
+            <ul id="nav-contact">
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-body">
+            <div class="left-column">
+              <img
+                src="images/profile.jpg"
+                alt="profile-pic"
+                class="profile-image"
+              />
+              <h5>Personalize Theme</h5>
+
+              <div class="theme-options">
+                <div data-mode="light" class="theme-dot" id="light-mode"></div>
+                <div data-mode="blue" class="theme-dot" id="blue-mode"></div>
+                <div data-mode="green" class="theme-dot" id="green-mode"></div>
+                <div
+                  data-mode="purple"
+                  class="theme-dot"
+                  id="purple-mode"
+                ></div>
+              </div>
+
+              <p class="theme-note">*Don't forget to change the theme</p>
+            </div>
+
+            <div class="right-column">
+              <div class="card">
+                <div class="card-content">
+                  <h3 class="card-title">Wanna know more?</h3>
+                  <p class="card-body">
+                    You have two options: scroll down or press the button.
+                  </p>
+                  <a href="index.html#about-me"
+                    ><button class="card-btn">Click here!</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2">
+      <a name="about-me"></a>
+
+      <div class="about-me">
+        <div class="about-me1">
+          <h3>More about me</h3>
+          <br />
+          <p>
+            I describe myself as someone who's persistent, positive, social,
+            loving and passionate about everything that I am doing, always
+            trying to explore and learn new things.As of my life I have been
+            living abroad for the past 7 years, it was a really nice adventure
+            with so many memories, people and friends that I met along the way.
+            All of these things that I mentioned contributed in a way or another
+            to become the person that I am today.
+          </p>
+        </div>
+
+        <div class="about-me2">
+          <h3>My passions</h3>
+          <br />
+          <p>
+            The first thing that comes in mind when I am thinking of passions it
+            is traveling, I really love to discover new places. I like beeing in
+            action, running, cycling ,playing football or any other sport.
+            Things that relax and calm me down are listening music,watching
+            movies/series or playing chess, sudoku, backgammon and sometimes
+            video-games.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-container">
+        <div class="skills-wrapper">
+          <div class="skills-header">
+            <h3>Skills</h3>
+          </div>
+          <div class="skills-body">
+            <ul class="soft-skills">
+              <li>English</li>
+              <li>Ambition</li>
+              <li>Time management</li>
+              <li>Perseverance</li>
+              <li>Leadership</li>
+            </ul>
+            <ul class="tech-skills">
+              <li>HTML</li>
+              <li>CSS/SCSS</li>
+              <li>Git</li>
+              <li>JavaScript</li>
+              <li>ReactJS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="form-container">
+        <h3>Get In Touch</h3>
+
+        <form id="contact-form">
+          <a name="contact"></a>
+  
+          <label>Name</label>
+          <input class="input-field" type="text" name="name" />
+  
+          <label>Subject</label>
+          <input class="input-field" type="text" name="subject" />
+  
+          <label>Email</label>
+          <input class="input-field" type="text" name="email" />
+  
+          <label>Message</label>
+          <textarea class="input-field" name="message"></textarea>
+  
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
